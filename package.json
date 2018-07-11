@@ -1,0 +1,16 @@
+{
+  "name": "preco_rec",
+  "version": "1.0.0",
+  "description": "lista de produtos por nota",
+  "main": "prod.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tmilitino",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
+  }
+}
