@@ -1,6 +1,7 @@
 var app = require('./config/express')();
 var rotasProdutos = require('./app/routes/produtos')(app);
 
-app.listen(3000, function(){
-    console.log("Servidor rodando");
-});
+var porta = process.env.PORT || 3000;
+http.listen(porta,function(){
+    console.log("servidor rodando");
+}); 
