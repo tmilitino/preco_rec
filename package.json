@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "lista de produtos por nota",
   "main": "prod.js",
-  "scripts": {
-    "start" : "node prod.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+
   "author": "tmilitino",
   "license": "ISC",
   "dependencies": {
@@ -16,6 +13,9 @@
   },
   "engines":{
     "npm" : "5.7.1"
+  },
+  "scripts": {
+    "start" : "node prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
-
 }
