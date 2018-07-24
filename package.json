@@ -4,28 +4,18 @@
   "description": "lista de produtos por nota",
   "main": "prod.js",
   "scripts": {
+    "start" : "node prod.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "tmilitino",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "1.13.1",
-    "database-cleaner": "0.10.0",
-    "db-migrate": "0.9.16",
-    "ejs": "2.3.4",
-    "express": "4.12.4",
-    "express-load": "1.1.14",
-    "express-validator": "2.12.1",
-    "mocha": "2.2.5",
-    "mysql": "2.7.0",
-    "sleep": "3.0.0",
-    "socket.io": "1.3.6"
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
   },
   "engines":{
     "npm" : "5.7.1"
-  },
-  "scripts": {
-    "start" : "node prod.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
   }
+
 }
