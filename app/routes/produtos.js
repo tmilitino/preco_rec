@@ -1,5 +1,6 @@
 var dbConect = require('../infra/dbConect');
-
+var con = document.getElementById("filter").value;
+//if con == ""
 module.exports = function(app) {
     app.get("/produtos",function(req, res) {        
         var connection = dbConect();
