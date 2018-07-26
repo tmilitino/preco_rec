@@ -15,6 +15,7 @@ module.exports = function(app) {
           connection.query('select * from produto where id like %'+cons+'% or nome like %'+cons+'% or ncm like %+'cons'+%', function(err, results){
               console.log(err);
               res.render('produtos/lista',{lista:results});
+              });
         }
 
         connection.end();
