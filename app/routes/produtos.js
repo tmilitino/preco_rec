@@ -4,7 +4,7 @@ module.exports = function(app) {
     app.get("/produtos",function(req, res) {
 
         var connection = dbConect();
-        var cons = 1;
+        var cons = "1";
         if (cons = ""){
         connection.query('select * from produto', function(err, results){
             console.log(err);
