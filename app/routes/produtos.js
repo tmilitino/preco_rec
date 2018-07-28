@@ -13,7 +13,7 @@ module.exports = function(app) {
     app.get("/produtos/form",function(req, res) {
 
         var produto = req.body;
-
+        console.log(produto);
         var connection = app.infra.dbConect();
         var produtosBanco = new app.infra.ProdutosDAO(connection)
 
