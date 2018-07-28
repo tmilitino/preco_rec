@@ -1,6 +1,14 @@
 <html>
     <body>
-        <input id="filter" type="text">
+            <form action="/produtos/lista" method="post">
+
+            <div>
+                <label for="id">Titulo</label>
+                <input type="text" id="id" name="id" placeholder="coloque o titulo"/>
+            </div>
+            <input type="submit" value="gravar"/>
+        </form>
+
         <table>
             <tr>
                 <td>id</td>
